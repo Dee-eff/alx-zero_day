@@ -1,4 +1,5 @@
-git pull origin up_to_date
+git fetch origin main
+git merge origin/main
 git add .
-git commit -m 'How to be up to date in git'
-git push origin main
+git commit -m
+git push
